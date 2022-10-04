@@ -1,0 +1,94 @@
+/* RESPONSIVE DESIGN */
+/*Tablet*/
+@media (min-width: 768px) {
+
+    .skills__container {
+        gap: unset;
+    }
+    /* .profile__photo {
+        width: 17rem;
+        height: 12rem;
+    } */
+
+}
+    
+/*Mobile*/
+@media (max-width: 768px) {
+
+    .navbar__logo__title {
+        font-size: 1.2rem;
+        width: 82%;
+    }
+    header {
+        padding-bottom: 1.5rem;
+    }
+    .profile__info__title {
+        font-size: 1.5rem;
+    }
+    .profile__info__text {
+        font-size: 1rem;
+    }
+    .navbar__menu__item {
+        display: none;
+    }
+    .email {
+        display: block;
+    }
+    .navbar__menu {
+        width: 30%;
+    }
+    .profile__photo {
+        width: 9rem;
+        height: 10rem;
+    }
+    .skills__column {
+        width: 90%;
+    }
+    .skills__container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 600px) {
+    .navbar__logo__title {
+        width: 60%;
+    }
+    header {
+        padding-bottom: 0;
+    }
+    .navbar {
+        flex-direction: column;
+    }
+    .navbar__menu {
+        width: 100%;
+    }
+    .profile__photo {
+        width: 9rem;
+        height: 8rem;
+    }
+    .profile__container {
+        flex-direction: column-reverse;
+    }
+    .profile__info {
+        width: 100%;
+    }
+    .project__box {
+        width: 16rem;
+    }
+    .network__item {
+        padding-right: 3rem;
+    }
+    .about__img {
+        display: none;
+    }
+    .contact__container {
+        width: 19rem;
+    }
+    .contact__img {
+        width: 14rem;
+    }
+    .contact__btn__box {
+        padding-bottom: 0.2rem;
+        left: 10.8rem;
+    }
+}

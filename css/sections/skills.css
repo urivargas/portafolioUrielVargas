@@ -1,0 +1,39 @@
+section.skills{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.skills__container{
+    display: flex;
+    gap: 3rem;
+}
+.skills__column{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    width: 50%;
+}
+.skills__row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.skill__card__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 0.4rem;
+    width: 9rem;
+    height: 6rem;
+    border-radius: 10%;
+    background: #FFFFFF;
+    transition: .3s;
+    box-shadow: 2px 2px 2px #ccc;
+}
+.skill__card__box:hover{
+    box-shadow: 4px 4px 4px #CCC;
+}

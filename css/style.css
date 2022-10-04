@@ -1,0 +1,43 @@
+:root{
+    --back-color: #F5F5F5;
+    --section-color: #EAF2FD;
+    --link-color: #000;
+ }
+ 
+ body {
+     box-sizing: border-box;
+     background-color: var(--back-color) ;
+     font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3 {
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: var(--link-color);
+}
+.container {
+    max-width: 67.5em;
+    margin-inline: auto;
+    padding-inline: 2.5rem;
+    gap: 2rem;
+    justify-content: center;
+}
+section:nth-child(even) {
+    background-color: var(--section-color);
+}
+section.about_me, section.skills, section.studies, section.projects, section.contact{
+    text-align: center;
+    padding: 3rem 0;
+}
+.navbar__logo__icon, .skill__card__box__icon {
+    color: #2A7AE4;
+}
+.btn:hover{
+    border: 1px solid #2A7AE4;
+    background: #FFFFFF;
+    color: #2A7AE4;
+}
+.section__title {
+    font-size: 1.5rem;
+}

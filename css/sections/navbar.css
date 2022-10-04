@@ -1,0 +1,65 @@
+ *, *::before, *::after {
+     box-sizing: inherit;
+ }
+ header {
+     padding: 3.5rem 0 2.5rem 0;
+     font-size: 1rem;
+ }
+ .navbar{
+     display: flex;
+     justify-content: space-between;
+ }
+ .navbar__logo{
+     display: flex;
+     align-items: center;
+     gap: 0.5rem;
+     transition: 1s all;
+ }
+ .navbar__logo__title{
+     display: block;
+     font-size: 1.7rem;
+     padding-bottom: 0.2rem;
+     white-space: nowrap;
+     border-right: 3px solid #2A7AE4;
+     width: 85%;
+     overflow: hidden;
+     animation: typing 3s alternate infinite steps( 24, start), blink 1s alternate infinite steps(24);
+ }
+ @keyframes typing{
+     from {
+         width: 0;
+     }
+ }
+ @keyframes blink {
+     50% {
+       border-color: transparent;
+     }
+ }
+ .navbar__menu{
+    display: flex;
+    width: 61%;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    align-items: center;
+}
+.navbar__menu__item{
+    padding: 0.4rem;
+	color: #F5F5F5;
+	background-color: #2A7AE4;
+	transition: 1s;
+	display: block;
+    border-radius: 0.3rem;
+	border: 1px solid #CCCCCC;
+	box-shadow: 2px 2px 2px #CCC;
+    padding: 0.5rem;
+}
+.navbar__menu__item:hover{
+    /* border-radius: 2rem; */
+    border: 1px solid #CCCCCC;
+    color: #2A7AE4;
+    background: #F5F5F5;
+    /* border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+    background: #CCCCCC; */
+    box-shadow: 4px 4px 4px #CCCCCC;
+}

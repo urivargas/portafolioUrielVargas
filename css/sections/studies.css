@@ -1,0 +1,31 @@
+.courses__container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-top: 2rem;
+}
+.course__img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+
+    width: 286px;
+    height: 238px;
+    border-radius: 10%;
+    background: #FFFFFF;
+}
+.course__info{
+    text-align: start;
+    padding-top: 1rem;
+}
+.course__info__title{
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+}
+.course__info__date{
+    color: #2A7AE4;
+}

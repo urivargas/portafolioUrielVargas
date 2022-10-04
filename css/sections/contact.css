@@ -1,0 +1,21 @@
+section.contact{
+    border-bottom: 2px solid;
+}
+.contact__container{
+    display: flex;
+    width: 26rem;
+    justify-content: flex-end;
+}
+.contact__btn__box{
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    padding-bottom: 0.8rem;
+    left: 12rem;
+}
+.contact__btn__box .btn{
+    width: 8rem;
+}
+.contact__img{
+    width: 18rem;
+}
